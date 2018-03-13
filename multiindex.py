@@ -17,5 +17,5 @@ df = pd.DataFrame(data=np.random.randint(0, 1000, 36).reshape(-1, 12),
                   columns=multiIndex)
 print("df = \n{}\n".format(df))
 
-
-print("{}".format(df.loc[2017, 'Geagle']))
+print("2017 S1: \n{}\n".format(df.loc[2017, (['Geagle', 'Epple', 'Macrosoft'] ,'S1')]))
+print("Geagle 2018: \n{}\n".format(df.loc[2018, 'Geagle']))
