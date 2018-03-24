@@ -15,7 +15,7 @@ df1 = pd.DataFrame({"note" : ["C", "D", "E", "F", "G", "A", "B"],
 print("df1.loc['2']:\n{}\n".format(df1.loc['2']))
 
 print("series1.loc['E':'A']=\n{}\n".format(series1.loc['E':'A']));
-print("df1.iloc[2:3]=\n{}\n".format(df1.iloc[2:4]))
+print("df1.iloc[2:4]=\n{}\n".format(df1.iloc[2:4]))
 
 print("series1.at['E']={}\n".format(series1.at['E']));
 print("df1.iloc[4,1]={}\n".format(df1.iloc[4,1]))
